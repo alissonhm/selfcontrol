@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.selfcontrol"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <supports-screens android:resizeable="false"
+                  android:smallScreens="false"
+                  android:normalScreens="false"
+                  android:largeScreens="false"
+                  android:xlargeScreens="false"
+                  android:anyDensity="false"/>
+
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.packageview.selfcontrol.Selfcontrol"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.Cadastro"
+            android:label="Cadastros">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.Movimentacoes"
+            android:label="Movimentações">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.CadBanco"
+            android:label="Cadastro de Bancos">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.CadConta"
+            android:label="Cadastro de Contas">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.CadCaixa"
+            android:label="Cadastro de Caixas">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.CadCheque"
+            android:label="Cadastro de Cheques">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.CadCartoes"
+            android:label="Cadastro de Cartões">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.CadCartCre"
+            android:label="Cadastro de Cartões de Crédito">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.CadCartDeb"
+            android:label="Cadastro de Cartões de Débito">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.MovConta"
+            android:label="Movimentações de Contas">            
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.MovCompraVenda"
+            android:label="Compras e Vendas">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.MovCaixa"
+            android:label="Movimentações de Caixa">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.MovTitulos"
+            android:label="Títulos Financeiros">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.MovCompra"
+            android:label="Compras">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.MovVenda"
+            android:label="Vendas">
+        </activity>      
+        <activity
+            android:name="com.packageview.selfcontrol.MovTitPag"
+            android:label="Títulos Financeiros a Pagar">
+        </activity>   
+        <activity
+            android:name="com.packageview.selfcontrol.MovTitReceb"
+            android:label="Títulos Financeiros a Receber">
+        </activity>     
+        <activity
+            android:name="com.packageview.selfcontrol.CadBancoReg"
+            android:label="Registro de Banco">
+        </activity>        
+        <activity
+            android:name="com.packageview.selfcontrol.CadContaReg"
+            android:label="Registro de Conta">
+        </activity>       
+        <activity
+            android:name="com.packageview.selfcontrol.CadCaixaReg"
+            android:label="Registro de Caixa">
+        </activity>        
+        <activity
+            android:name="com.packageview.selfcontrol.CadChequeReg"
+            android:label="Registro de Cheque">
+        </activity>       
+        <activity
+            android:name="com.packageview.selfcontrol.CadCartCreReg"
+            android:label="Registro de Cartão de Crédito">
+        </activity>           
+        <activity
+            android:name="com.packageview.selfcontrol.CadCartDebReg"
+            android:label="Registro de Cartão de Débito">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.MovContaReg"
+            android:label="Registro de Movimentações Bancárias]">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.MovCompraReg"
+            android:label="Registro de Compras">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.MovVendaReg"
+            android:label="Registro de Vendas">
+        </activity>            
+        <activity
+            android:name="com.packageview.selfcontrol.MovCaixaReg"
+            android:label="Registro Movimentações de Caixa">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.MovTitPagReg"
+            android:label="Registro de Títulos a Pagar">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.MovTitRecebReg"
+            android:label="Registro de Títulos a Receber">
+        </activity>          
+        <activity
+            android:name="com.packageview.selfcontrol.FecharFatura"
+            android:label="Fechamento de Fatura de Cartões">
+        </activity>      
+        <activity
+            android:name="com.packageview.selfcontrol.MovCheque"
+            android:label="Movimentação de Cheque">
+        </activity>  
+        <activity
+            android:name="com.packageview.selfcontrol.MovChequeReg"
+            android:label="Registro de Movimentação de Cheque">
+        </activity>
+        <activity
+            android:name="com.packageview.selfcontrol.MovCaixaTitPag"
+            android:label="Seleção de Baixa de Título">
+        </activity>   
+        <activity
+            android:name="com.packageview.selfcontrol.MovCaixaTitReceb"
+            android:label="Seleção de Baixa de Título">
+        </activity>     
+        <activity
+            android:name="com.packageview.selfcontrol.MovContaTitPag"
+            android:label="Seleção de Baixa de Título">
+        </activity>   
+        <activity
+            android:name="com.packageview.selfcontrol.MovContaTitReceb"
+            android:label="Seleção de Baixa de Título">
+        </activity>          
+        <activity
+            android:name="com.packageview.selfcontrol.MovContaMovCheque"
+            android:label="Seleção de Baixa de Título">
+        </activity>  
+        <activity
+            android:name="com.packageview.selfcontrol.Calendario"
+            android:label="Seleção de Data">
+        </activity>                                                      
+    </application>
+
+</manifest>

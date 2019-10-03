@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Selfcontrol</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cadastro">Cadastro</string>
+    <string name="title_activity_mov">Mov</string>
+    <string name="title_activity_banc">Banc</string>
+
+</resources>
